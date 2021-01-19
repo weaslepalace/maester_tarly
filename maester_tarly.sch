@@ -381,34 +381,8 @@ Wire Wire Line
 	9150 5900 8900 5900
 Wire Wire Line
 	8900 5900 8900 4900
-Text Label 9350 2200 0    50   ~ 0
-b11
-Text Label 9350 2300 0    50   ~ 0
-b12
-Text Label 9350 2400 0    50   ~ 0
-b13
-Text Label 9350 2500 0    50   ~ 0
-b14
-Text Label 9350 2600 0    50   ~ 0
-b15
-Text Label 9350 2700 0    50   ~ 0
-b16
-Text Label 9350 2800 0    50   ~ 0
-b17
-Text Label 9350 2900 0    50   ~ 0
+Text Label 9400 2400 0    50   ~ 0
 b18
-Text Label 9350 3000 0    50   ~ 0
-b19
-Text Label 9350 3100 0    50   ~ 0
-b20
-Text Label 9350 3200 0    50   ~ 0
-b21
-Text Label 9350 3300 0    50   ~ 0
-b22
-Text Label 9350 3400 0    50   ~ 0
-b23
-Text Label 9350 3500 0    50   ~ 0
-b24
 Wire Wire Line
 	8650 6100 8650 5100
 Wire Wire Line
@@ -687,75 +661,73 @@ F 3 "" H 7950 3650 50  0001 C CNN
 	1    7950 3650
 	1    0    0    -1  
 $EndComp
-Text Label 7300 3500 0    50   ~ 0
+Text Label 7300 2800 0    50   ~ 0
 a0
-Text Label 7300 3400 0    50   ~ 0
+Text Label 7300 2600 0    50   ~ 0
 a1
-Text Label 7300 3300 0    50   ~ 0
+Text Label 7300 2700 0    50   ~ 0
 a2
 Text Label 7300 3200 0    50   ~ 0
 a3
-Text Label 7300 3100 0    50   ~ 0
-a4
-Text Label 7300 3000 0    50   ~ 0
-a5
 Text Label 7300 2900 0    50   ~ 0
+a4
+Text Label 7300 3300 0    50   ~ 0
+a5
+Text Label 7300 3000 0    50   ~ 0
 a6
-Text Label 7300 2800 0    50   ~ 0
-a7
-Text Label 7300 2700 0    50   ~ 0
-a12
-Text Label 7300 2600 0    50   ~ 0
-a13
 Text Label 7300 2500 0    50   ~ 0
+a7
+Text Label 9250 1200 0    50   ~ 0
+a12
+Text Label 7300 3100 0    50   ~ 0
+a13
+Text Label 7300 3400 0    50   ~ 0
 a14
-Text Label 9250 2100 0    50   ~ 0
-a22
-Text Label 9250 2000 0    50   ~ 0
-a23
-Text Label 9250 1900 0    50   ~ 0
-a24
 Text Label 9250 1800 0    50   ~ 0
+a22
+Text Label 7300 3500 0    50   ~ 0
+a23
+Text Label 9250 1300 0    50   ~ 0
 a25
-Text Label 9250 1700 0    50   ~ 0
+Text Label 9250 1900 0    50   ~ 0
 a26
 Text Label 9250 1600 0    50   ~ 0
 a27
-Text Label 9250 1500 0    50   ~ 0
+Text Label 7300 2400 0    50   ~ 0
 a28
 Text Label 9250 1400 0    50   ~ 0
 a29
-Text Label 9250 1300 0    50   ~ 0
+Text Label 9250 1700 0    50   ~ 0
 a30
-Text Label 9250 1200 0    50   ~ 0
+Text Label 9250 1500 0    50   ~ 0
 a31
 Text Label 6800 4100 1    50   ~ 0
 b[11..24]
-Text Label 7200 1400 0    50   ~ 0
-c0
-Text Label 7200 1500 0    50   ~ 0
-c1
-Text Label 7200 1600 0    50   ~ 0
-c2
-Text Label 7200 1700 0    50   ~ 0
-c3
-Text Label 7200 1800 0    50   ~ 0
-c4
-Text Label 7200 1900 0    50   ~ 0
-c5
-Text Label 7200 2000 0    50   ~ 0
-c6
-Text Label 7200 2100 0    50   ~ 0
-c7
 Text Label 7200 2200 0    50   ~ 0
-c8
+c0
+Text Label 7200 1800 0    50   ~ 0
+c1
+Text Label 7200 2000 0    50   ~ 0
+c2
+Text Label 7200 1900 0    50   ~ 0
+c3
 Text Label 7200 2300 0    50   ~ 0
+c4
+Text Label 7200 1600 0    50   ~ 0
+c5
+Text Label 7200 2100 0    50   ~ 0
+c6
+Text Label 7200 1700 0    50   ~ 0
+c7
+Text Label 8300 1600 0    50   ~ 0
+c8
+Text Label 7200 1500 0    50   ~ 0
 c9
 Text Label 8300 1400 0    50   ~ 0
 c10
 Text Label 8300 1500 0    50   ~ 0
 c11
-Text Label 8300 1600 0    50   ~ 0
+Text Label 7200 1400 0    50   ~ 0
 c12
 Text Label 8300 1700 0    50   ~ 0
 c13
@@ -884,7 +856,9 @@ Wire Wire Line
 Wire Wire Line
 	10600 3500 10400 3500
 Wire Wire Line
-	7450 2400 7300 2400
+	7450 3500 7300 3500
+Wire Wire Line
+	7450 2500 7300 2500
 Wire Wire Line
 	7450 2600 7300 2600
 Wire Wire Line
@@ -903,8 +877,6 @@ Wire Wire Line
 	7450 3300 7300 3300
 Wire Wire Line
 	7450 3400 7300 3400
-Wire Wire Line
-	7450 3500 7300 3500
 Wire Wire Line
 	8500 2400 8300 2400
 Wire Wire Line
@@ -930,9 +902,9 @@ Wire Wire Line
 Wire Wire Line
 	8500 2300 8300 2300
 Entry Wire Line
-	9150 1900 9250 1800
+	9150 1600 9250 1500
 Entry Wire Line
-	9150 2000 9250 1900
+	9150 1700 9250 1600
 Entry Wire Line
 	7100 1500 7200 1400
 Entry Wire Line
@@ -974,6 +946,8 @@ Entry Wire Line
 Entry Wire Line
 	8200 2400 8300 2300
 Entry Wire Line
+	7200 3600 7300 3500
+Entry Wire Line
 	7200 2500 7300 2400
 Entry Wire Line
 	7200 2600 7300 2500
@@ -995,8 +969,6 @@ Entry Wire Line
 	7200 3400 7300 3300
 Entry Wire Line
 	7200 3500 7300 3400
-Entry Wire Line
-	7200 3600 7300 3500
 Entry Wire Line
 	8200 2500 8300 2400
 Entry Wire Line
@@ -1046,81 +1018,19 @@ Entry Wire Line
 Entry Wire Line
 	10300 3600 10400 3500
 Entry Wire Line
+	9150 1900 9250 1800
+Entry Wire Line
 	9150 1300 9250 1200
 Entry Wire Line
 	9150 1400 9250 1300
 Entry Wire Line
 	9150 1500 9250 1400
 Entry Wire Line
-	9150 1600 9250 1500
-Entry Wire Line
-	9150 1700 9250 1600
-Entry Wire Line
 	9150 1800 9250 1700
-Entry Wire Line
-	9150 2100 9250 2000
-Entry Wire Line
-	9150 2200 9250 2100
-Entry Wire Line
-	9250 2300 9350 2200
-Entry Wire Line
-	9250 2400 9350 2300
-Entry Wire Line
-	9250 2500 9350 2400
-Entry Wire Line
-	9250 2600 9350 2500
-Entry Wire Line
-	9250 2700 9350 2600
-Entry Wire Line
-	9250 2800 9350 2700
-Entry Wire Line
-	9250 2900 9350 2800
-Entry Wire Line
-	9250 3000 9350 2900
-Entry Wire Line
-	9250 3100 9350 3000
-Entry Wire Line
-	9250 3200 9350 3100
-Entry Wire Line
-	9250 3300 9350 3200
-Entry Wire Line
-	9250 3400 9350 3300
-Entry Wire Line
-	9250 3500 9350 3400
-Entry Wire Line
-	9250 3600 9350 3500
 Wire Wire Line
 	10600 1300 10500 1300
 Text Label 6700 4150 1    50   ~ 0
 a[31..0]
-Wire Wire Line
-	9350 2200 9550 2200
-Wire Wire Line
-	9350 2300 9550 2300
-Wire Wire Line
-	9350 2400 9550 2400
-Wire Wire Line
-	9350 2500 9550 2500
-Wire Wire Line
-	9350 2600 9550 2600
-Wire Wire Line
-	9350 2700 9550 2700
-Wire Wire Line
-	9350 2800 9550 2800
-Wire Wire Line
-	9350 2900 9550 2900
-Wire Wire Line
-	9350 3000 9550 3000
-Wire Wire Line
-	9350 3100 9550 3100
-Wire Wire Line
-	9350 3200 9550 3200
-Wire Wire Line
-	9350 3300 9550 3300
-Wire Wire Line
-	9350 3400 9550 3400
-Wire Wire Line
-	9350 3500 9550 3500
 Wire Bus Line
 	7000 4350 10300 4350
 Text Label 7150 4100 0    50   ~ 0
@@ -1667,11 +1577,11 @@ Wire Wire Line
 Wire Wire Line
 	7700 5000 7700 5050
 Text Label 7300 5450 1    50   ~ 0
-a12
+a25
 Text Label 7500 5450 1    50   ~ 0
-a13
+a12
 Text Label 7700 5450 1    50   ~ 0
-a14
+a23
 Entry Wire Line
 	7700 5450 7600 5550
 Entry Wire Line
@@ -2022,14 +1932,14 @@ Connection ~ 11100 3500
 Wire Wire Line
 	11100 3500 11100 3400
 Wire Wire Line
-	7450 2500 7300 2500
-Text Label 7300 2400 0    50   ~ 0
+	7450 2400 7300 2400
+Text Label 9400 2300 0    50   ~ 0
 a21
-Wire Bus Line
-	9250 4200 6700 4200
 Connection ~ 6700 4200
 Wire Bus Line
 	6700 4200 6700 5100
+Wire Wire Line
+	9250 1800 9550 1800
 Wire Wire Line
 	9250 1200 9550 1200
 Wire Wire Line
@@ -2043,13 +1953,7 @@ Wire Wire Line
 Wire Wire Line
 	9250 1700 9550 1700
 Wire Wire Line
-	9250 1800 9550 1800
-Wire Wire Line
 	9250 1900 9550 1900
-Wire Wire Line
-	9250 2000 9550 2000
-Wire Wire Line
-	9250 2100 9550 2100
 Connection ~ 7100 4100
 Wire Bus Line
 	7100 4100 8200 4100
@@ -2135,18 +2039,122 @@ Wire Wire Line
 	7200 2200 7450 2200
 Wire Wire Line
 	7200 2300 7450 2300
+Text Label 9400 3500 0    50   ~ 0
+b11
+Text Label 9400 2700 0    50   ~ 0
+b13
+Text Label 9400 2800 0    50   ~ 0
+b15
+Text Label 9400 2600 0    50   ~ 0
+b16
+Text Label 9400 3100 0    50   ~ 0
+b19
+Text Label 9400 3000 0    50   ~ 0
+b20
+Text Label 9400 3200 0    50   ~ 0
+b21
+Text Label 9400 3300 0    50   ~ 0
+b22
+Text Label 9400 2900 0    50   ~ 0
+b23
+Text Label 9400 3400 0    50   ~ 0
+b24
+Entry Wire Line
+	9300 2700 9400 2600
+Entry Wire Line
+	9300 2800 9400 2700
+Entry Wire Line
+	9300 2900 9400 2800
+Entry Wire Line
+	9300 3000 9400 2900
+Entry Wire Line
+	9300 3100 9400 3000
+Entry Wire Line
+	9300 3200 9400 3100
+Entry Wire Line
+	9300 3300 9400 3200
+Entry Wire Line
+	9300 3400 9400 3300
+Entry Wire Line
+	9300 3500 9400 3400
+Entry Wire Line
+	9300 3600 9400 3500
+Wire Wire Line
+	9400 2600 9550 2600
+Wire Wire Line
+	9400 2700 9550 2700
+Wire Wire Line
+	9400 2800 9550 2800
+Wire Wire Line
+	9400 2900 9550 2900
+Wire Wire Line
+	9400 3000 9550 3000
+Wire Wire Line
+	9400 3100 9550 3100
+Wire Wire Line
+	9400 3200 9550 3200
+Wire Wire Line
+	9400 3300 9550 3300
+Wire Wire Line
+	9400 3400 9550 3400
+Wire Wire Line
+	9400 3500 9550 3500
+Wire Wire Line
+	9400 2400 9550 2400
+Wire Wire Line
+	9400 2200 9550 2200
+Entry Wire Line
+	9300 2500 9400 2400
+Entry Wire Line
+	9150 2500 9250 2400
+Entry Wire Line
+	9300 2300 9400 2200
+Entry Wire Line
+	9150 2000 9250 1900
+Text Label 9400 2500 0    50   ~ 0
+a24
+Text Label 9400 2100 0    50   ~ 0
+b17
+Text Label 9400 2000 0    50   ~ 0
+b14
+Text Label 9400 2200 0    50   ~ 0
+b12
+Wire Wire Line
+	9350 2500 9550 2500
+Entry Wire Line
+	9150 2700 9250 2600
+Wire Wire Line
+	9250 2600 9350 2600
+Wire Wire Line
+	9350 2600 9350 2500
+Wire Wire Line
+	9250 2400 9350 2400
+Wire Wire Line
+	9350 2400 9350 2300
+Wire Wire Line
+	9350 2300 9550 2300
+Entry Wire Line
+	9300 2100 9400 2000
+Entry Wire Line
+	9300 2200 9400 2100
+Wire Wire Line
+	9400 2000 9550 2000
+Wire Wire Line
+	9550 2100 9400 2100
+Wire Bus Line
+	6700 4200 9300 4200
 Wire Bus Line
 	2950 5200 2950 5900
 Wire Bus Line
 	6700 5550 7600 5550
 Wire Bus Line
-	7100 1500 7100 4100
+	9150 1300 9150 3850
 Wire Bus Line
 	7200 2500 7200 3600
 Wire Bus Line
-	9150 1300 9150 3850
+	7100 1500 7100 4100
 Wire Bus Line
-	9250 2300 9250 4200
+	9300 2100 9300 4200
 Wire Bus Line
 	10300 1500 10300 4350
 Wire Bus Line
